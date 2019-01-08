@@ -5,7 +5,7 @@ From: ubuntu:16.04
     apt update
     apt -y install wget python2.7 python-pip qt5-default git
 
-    export VERSION="simnibs-2.1.1-Linux64"
+    export VERSION="simnibs-2.1.2-Linux64"
     export CPUS=$(lscpu -p | grep -v '#' | wc -l)
 
     pip install -v numpy scipy babel six>=1.3 setuptools enum34 PyOpenGl
